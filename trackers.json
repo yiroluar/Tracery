@@ -1,0 +1,291 @@
+{
+  "trackers": {
+    "googleadservices.com": {
+      "category": "advertising",
+      "threatLevel": "high",
+      "company": "Google",
+      "description": "Google Ads conversion tracking and remarketing",
+      "fingerprintingMethods": ["cookies", "pixel_tracking"],
+      "dataCollection": {
+        "personalInfo": true,
+        "behavioralData": true,
+        "deviceFingerprinting": false,
+        "locationTracking": true
+      }
+    },
+    "doubleclick.net": {
+      "category": "advertising",
+      "threatLevel": "high",
+      "company": "Google",
+      "description": "DoubleClick ad serving and tracking",
+      "fingerprintingMethods": ["cookies", "pixel_tracking", "cross_site_tracking"],
+      "dataCollection": {
+        "personalInfo": true,
+        "behavioralData": true,
+        "deviceFingerprinting": true,
+        "locationTracking": true
+      }
+    },
+    "googlesyndication.com": {
+      "category": "advertising",
+      "threatLevel": "high",
+      "company": "Google",
+      "description": "Google AdSense ad serving",
+      "fingerprintingMethods": ["cookies", "javascript_fingerprinting"],
+      "dataCollection": {
+        "personalInfo": true,
+        "behavioralData": true,
+        "deviceFingerprinting": true,
+        "locationTracking": false
+      }
+    },
+    "facebook.com": {
+      "category": "social",
+      "threatLevel": "high",
+      "company": "Meta",
+      "description": "Facebook tracking pixel and social plugins",
+      "fingerprintingMethods": ["cookies", "pixel_tracking", "canvas_fingerprinting"],
+      "dataCollection": {
+        "personalInfo": true,
+        "behavioralData": true,
+        "deviceFingerprinting": true,
+        "locationTracking": true
+      }
+    },
+    "google-analytics.com": {
+      "category": "analytics",
+      "threatLevel": "medium",
+      "company": "Google",
+      "description": "Google Analytics web analytics",
+      "fingerprintingMethods": ["cookies", "javascript_fingerprinting"],
+      "dataCollection": {
+        "personalInfo": false,
+        "behavioralData": true,
+        "deviceFingerprinting": true,
+        "locationTracking": true
+      }
+    },
+    "googletagmanager.com": {
+      "category": "analytics",
+      "threatLevel": "medium",
+      "company": "Google",
+      "description": "Google Tag Manager for tracking code management",
+      "fingerprintingMethods": ["cookies", "javascript_fingerprinting"],
+      "dataCollection": {
+        "personalInfo": false,
+        "behavioralData": true,
+        "deviceFingerprinting": true,
+        "locationTracking": false
+      }
+    },
+    "amazon-adsystem.com": {
+      "category": "advertising",
+      "threatLevel": "high",
+      "company": "Amazon",
+      "description": "Amazon advertising and affiliate tracking",
+      "fingerprintingMethods": ["cookies", "pixel_tracking"],
+      "dataCollection": {
+        "personalInfo": true,
+        "behavioralData": true,
+        "deviceFingerprinting": false,
+        "locationTracking": false
+      }
+    },
+    "hotjar.com": {
+      "category": "analytics",
+      "threatLevel": "medium",
+      "company": "Hotjar",
+      "description": "Heatmap and session recording analytics",
+      "fingerprintingMethods": ["cookies", "session_recording", "mouse_tracking"],
+      "dataCollection": {
+        "personalInfo": false,
+        "behavioralData": true,
+        "deviceFingerprinting": true,
+        "locationTracking": false
+      }
+    },
+    "newrelic.com": {
+      "category": "analytics",
+      "threatLevel": "low",
+      "company": "New Relic",
+      "description": "Application performance monitoring",
+      "fingerprintingMethods": ["javascript_fingerprinting"],
+      "dataCollection": {
+        "personalInfo": false,
+        "behavioralData": true,
+        "deviceFingerprinting": false,
+        "locationTracking": false
+      }
+    },
+    "segment.io": {
+      "category": "analytics",
+      "threatLevel": "medium",
+      "company": "Segment",
+      "description": "Customer data platform and analytics",
+      "fingerprintingMethods": ["cookies", "javascript_fingerprinting"],
+      "dataCollection": {
+        "personalInfo": true,
+        "behavioralData": true,
+        "deviceFingerprinting": true,
+        "locationTracking": false
+      }
+    },
+    "fingerprintjs.com": {
+      "category": "fingerprinting",
+      "threatLevel": "critical",
+      "company": "FingerprintJS",
+      "description": "Browser fingerprinting service",
+      "fingerprintingMethods": ["canvas_fingerprinting", "webgl_fingerprinting", "audio_fingerprinting", "font_fingerprinting"],
+      "dataCollection": {
+        "personalInfo": false,
+        "behavioralData": false,
+        "deviceFingerprinting": true,
+        "locationTracking": false
+      }
+    },
+    "maxmind.com": {
+      "category": "fingerprinting",
+      "threatLevel": "critical",
+      "company": "MaxMind",
+      "description": "IP geolocation and fraud detection",
+      "fingerprintingMethods": ["ip_fingerprinting", "device_fingerprinting"],
+      "dataCollection": {
+        "personalInfo": false,
+        "behavioralData": false,
+        "deviceFingerprinting": true,
+        "locationTracking": true
+      }
+    },
+    "recaptcha.net": {
+      "category": "fingerprinting",
+      "threatLevel": "high",
+      "company": "Google",
+      "description": "reCAPTCHA bot detection service",
+      "fingerprintingMethods": ["behavioral_analysis", "mouse_tracking", "canvas_fingerprinting"],
+      "dataCollection": {
+        "personalInfo": false,
+        "behavioralData": true,
+        "deviceFingerprinting": true,
+        "locationTracking": false
+      }
+    },
+    "twitter.com": {
+      "category": "social",
+      "threatLevel": "medium",
+      "company": "X Corp",
+      "description": "Twitter social widgets and tracking",
+      "fingerprintingMethods": ["cookies", "pixel_tracking"],
+      "dataCollection": {
+        "personalInfo": true,
+        "behavioralData": true,
+        "deviceFingerprinting": false,
+        "locationTracking": false
+      }
+    },
+    "linkedin.com": {
+      "category": "social",
+      "threatLevel": "medium",
+      "company": "LinkedIn",
+      "description": "LinkedIn social plugins and tracking",
+      "fingerprintingMethods": ["cookies", "pixel_tracking"],
+      "dataCollection": {
+        "personalInfo": true,
+        "behavioralData": true,
+        "deviceFingerprinting": false,
+        "locationTracking": false
+      }
+    },
+    "pinterest.com": {
+      "category": "social",
+      "threatLevel": "medium",
+      "company": "Pinterest",
+      "description": "Pinterest tracking pixel",
+      "fingerprintingMethods": ["cookies", "pixel_tracking"],
+      "dataCollection": {
+        "personalInfo": true,
+        "behavioralData": true,
+        "deviceFingerprinting": false,
+        "locationTracking": false
+      }
+    },
+    "mixpanel.com": {
+      "category": "analytics",
+      "threatLevel": "medium",
+      "company": "Mixpanel",
+      "description": "Product analytics and user tracking",
+      "fingerprintingMethods": ["cookies", "javascript_fingerprinting"],
+      "dataCollection": {
+        "personalInfo": true,
+        "behavioralData": true,
+        "deviceFingerprinting": true,
+        "locationTracking": false
+      }
+    },
+    "trustpilot.com": {
+      "category": "fingerprinting",
+      "threatLevel": "high",
+      "company": "Trustpilot",
+      "description": "Review platform with tracking capabilities",
+      "fingerprintingMethods": ["cookies", "javascript_fingerprinting", "behavioral_analysis"],
+      "dataCollection": {
+        "personalInfo": true,
+        "behavioralData": true,
+        "deviceFingerprinting": true,
+        "locationTracking": false
+      }
+    },
+    "cloudflare.com": {
+      "category": "cdn",
+      "threatLevel": "low",
+      "company": "Cloudflare",
+      "description": "CDN and security services",
+      "fingerprintingMethods": ["ip_analysis"],
+      "dataCollection": {
+        "personalInfo": false,
+        "behavioralData": false,
+        "deviceFingerprinting": false,
+        "locationTracking": true
+      }
+    },
+    "jsdelivr.net": {
+      "category": "cdn",
+      "threatLevel": "low",
+      "company": "jsDelivr",
+      "description": "Open source CDN",
+      "fingerprintingMethods": [],
+      "dataCollection": {
+        "personalInfo": false,
+        "behavioralData": false,
+        "deviceFingerprinting": false,
+        "locationTracking": false
+      }
+    }
+  },
+  "categories": {
+    "advertising": {
+      "description": "Ad serving and marketing tracking",
+      "defaultThreatLevel": "high",
+      "commonMethods": ["cookies", "pixel_tracking", "cross_site_tracking"]
+    },
+    "analytics": {
+      "description": "Web analytics and user behavior tracking",
+      "defaultThreatLevel": "medium",
+      "commonMethods": ["cookies", "javascript_fingerprinting", "session_recording"]
+    },
+    "social": {
+      "description": "Social media widgets and tracking",
+      "defaultThreatLevel": "medium",
+      "commonMethods": ["cookies", "pixel_tracking", "social_graph_analysis"]
+    },
+    "fingerprinting": {
+      "description": "Browser and device fingerprinting services",
+      "defaultThreatLevel": "critical",
+      "commonMethods": ["canvas_fingerprinting", "webgl_fingerprinting", "audio_fingerprinting", "font_fingerprinting"]
+    },
+    "cdn": {
+      "description": "Content delivery networks",
+      "defaultThreatLevel": "low",
+      "commonMethods": ["ip_analysis"]
+    }
+  }
+}

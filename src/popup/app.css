@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  
+  body {
+    @apply m-0 p-0 bg-black text-white;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-3 py-1.5 text-xs font-medium border border-stone-700 rounded-md transition-colors duration-150 text-white;
+  }
+  
+  .btn-primary {
+    @apply bg-white text-black border-stone-700 hover:bg-white;
+  }
+  
+  /* Secondary: transparent dark */
+  .btn-secondary {
+    @apply bg-transparent text-white border-stone-700 hover:bg-black;
+  }
+  
+  .btn-ghost {
+    @apply bg-transparent text-white border-transparent hover:bg-transparent;
+  }
+  
+  .select {
+    @apply px-3 py-1.5 text-xs bg-black text-white border border-stone-700 rounded-md cursor-pointer focus:outline-none;
+  }
+  
+  .input {
+    @apply px-3 py-1.5 text-xs bg-black text-white border border-stone-700 rounded-md focus:outline-none;
+  }
+  
+  .tracker-item {
+    @apply flex items-start gap-3 p-3 border-b border-stone-800 hover:bg-black cursor-pointer transition-colors duration-150;
+  }
+  
+  .tracker-status {
+    @apply w-2 h-2 mt-1 flex-shrink-0 rounded-full bg-stone-500;
+  }
+  
+  .tracker-status.allowed {
+    @apply bg-stone-500;
+  }
+  
+  .tracker-status.blocked {
+    @apply bg-white;
+  }
+  
+  /* Threat badges */
+  .threat-low {
+    @apply bg-black text-white border border-stone-700;
+  }
+  
+  .threat-medium {
+    @apply bg-black text-white border border-stone-600;
+  }
+  
+  .threat-high {
+    @apply bg-black text-white border border-stone-500;
+  }
+  
+  .threat-critical {
+    @apply bg-white text-black;
+  }
+  
+  .category-badge {
+    @apply px-1.5 py-0.5 text-xs font-medium uppercase tracking-wide bg-stone-800 text-gray-300 border border-gray-700 rounded;
+  }
+  
+  .threat-badge {
+    @apply px-1.5 py-0.5 text-xs font-medium uppercase tracking-wide rounded;
+  }
+}

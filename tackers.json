@@ -1,0 +1,6 @@
+[
+  {"domain":"script.hotjar.com","category":"analytics","weight":2},
+  {"domain":"bam.nr-data.net","category":"analytics","weight":3},
+  {"domain":"googleadservices.com","category":"ads","weight":3},
+  {"domain":"fonts.gstatic.com","category":"cdn","weight":0}
+]
